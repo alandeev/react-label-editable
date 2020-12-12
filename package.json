@@ -1,7 +1,7 @@
 {
     "name": "react-label-editable",
     "description": "React Component to use label with button to editable value",
-    "version": "1.0.6",
+    "version": "1.0.9",
     "main": "./lib/LabelEditable.js",
     "license": "MIT",
     "files": [ "lib" ],

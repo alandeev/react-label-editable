@@ -5,14 +5,18 @@ React Component to create Field Input/Label that is editable easily.
 ## Install
 
 ```bash
-npm i react-label-editable
+npm i react-label-editable --save #install with NPM
+```
+
+```bash
+yarn add react-label-editable  #install with YARN
 ```
 
 [react-label-editable package](https://www.npmjs.com/package/react-label-editable)
 
 ## Example
 
-![authenticate-example](./assets/example_.gif)
+![example](https://github.com/alandev2/react-label-editable/blob/master/assets/example_.gif)
 
 ## Usage
 
