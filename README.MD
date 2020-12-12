@@ -11,7 +11,7 @@ npm i react-label-editable
 [react-label-editable package](https://www.npmjs.com/package/react-label-editable)
 
 
-![authenticate-example](./assets/example.gif)
+![authenticate-example](./assets/example_.gif)
 
 ## Usage
 
