@@ -11,21 +11,26 @@ npm i react-label-editable
 [react-label-editable package](https://www.npmjs.com/package/react-label-editable)
 
 
+![authenticate-example](./assets/example.gif)
+
 ## Usage
 
 ```js | pure 
 import LabelEditable from 'react-label-editable';
 import { useState } from 'react-label-editable';
 
-export default function(){
-  const [ value, changeValue ] = useState("");
+export default function FieldEditable(){
+  const [ email, changeEmail ] = useState("");
 
   return (
-    <LabelEditable 
-      value={value} 
-      onChange={changeValue} 
-      startWithInput={false} 
-    />
+    <div className="field">
+      <label className="label" for="email">E-mail</label>
+      <LabelEditable 
+        value={email} //value that start label
+        onChange={changeEmail} //changing email value
+        startWithInput={false} //start with input or label
+      />
+    </div>
   );
 }
 ```
