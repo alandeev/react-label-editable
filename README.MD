@@ -1,6 +1,6 @@
 # react-label-editable
 
-React Component to create one label if is editable.
+React Component to create Field Input/Label that is editable easily.
 
 ## Install
 
@@ -10,6 +10,7 @@ npm i react-label-editable
 
 [react-label-editable package](https://www.npmjs.com/package/react-label-editable)
 
+## Example
 
 ![authenticate-example](./assets/example_.gif)
 
