@@ -1,0 +1,26 @@
+._LabelEditable {
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+}
+
+._LabelEditable ._input-editable, ._LabelEditable .label-editable{
+  outline: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+._LabelEditable ._label-editable {
+  cursor: text;
+}
+
+._LabelEditable ._edit-button{
+  cursor: pointer;
+}
