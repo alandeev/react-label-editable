@@ -18,7 +18,7 @@ npm i react-label-editable
 
 ```js | pure 
 import LabelEditable from 'react-label-editable';
-import { useState } from 'react-label-editable';
+import React, { useState } from 'react';
 
 export default function FieldEditable(){
   const [ email, changeEmail ] = useState("");
